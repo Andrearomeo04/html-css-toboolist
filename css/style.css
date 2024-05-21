@@ -81,14 +81,18 @@ hr {
 
 }
 
-.li-margin {              /* li of 1st ul */
+.ul-margin {              /* li of 1st ul */
     margin-top: 50px;
     list-style-type: none;
 }
 
-.li-margin2 {             /* li of 2nd ul */
+.ul-margin2 {             /* li of 2nd ul */
     margin-top: 20px;
     list-style-type: none;
+}
+
+li {
+    margin: 30px 0px;
 }
 
 h2 {
@@ -101,21 +105,33 @@ h2 {
     font-size: 27px;
 }
 
-/* check entity  */
-.check {
+/* check and cross entity  */
+.check, .cross {
     border-radius: 50%;
     margin-right: 10px;
     padding: 3px 6px;
+}
+
+.check {
     border: 1px solid rgb(9, 202, 9);
+}
+
+.cross {
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .green {
     color: rgb(9, 202, 9);
 }
 
+.red {
+    color: red;
+}
+
 .back-white {
     background-color: white;
 }
+/* check and cross entity end  */
 
 /* li character style of 2nd ul  */
 strong{

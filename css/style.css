@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* header section */
 header {
     background-color: rgb(255, 255, 255);
     padding: 20px 40px;
@@ -16,8 +17,13 @@ header {
 .d-inline-block {
     display: inline-block;
 }
+/* header end */
 
+/* body section  */
+
+/* body structure  */
 body {
+    font-family: "Montserrat", sans-serif;
     background-color: rgba(243, 247, 248, 0.699);
 }
 
@@ -33,22 +39,17 @@ body {
     width: 1200px;
     height: 750px;
     margin: 0 auto;
-    background-color: white;
     border-radius: 10px;
     padding: 30px 60px;
 }
+/* body structure end  */
 
+/* label toolbar */
 .label-task {
-    padding: 10px;
+    padding: 5px 15px;
     font-size: 20px;
     border-radius: 5px;
-}
-.font1 {
-    color: white;
-}
-
-.font2 {
-    color: grey;
+    font-size: 20px;
 }
 
 .skyblue {
@@ -61,11 +62,62 @@ body {
     border-style: solid;
 }
 
+/* font style  */
+.font1 {
+    color: white;
+}
+
+.font2 {
+    color: grey;
+}
+
+
 hr {
     position: absolute;
     width: 100%;
     border: 1px solid  rgba(243, 247, 248, 0.699);
-    top: 250px;
+    top: 240px;
     left: 0;
 
+}
+
+.li-margin {              /* li of 1st ul */
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+.li-margin2 {             /* li of 2nd ul */
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 30px;
+    display: inline-block;
+}
+
+/* arrow entity */
+.arrow-d {
+    font-size: 27px;
+}
+
+/* check entity  */
+.check {
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 3px 6px;
+    border: 1px solid rgb(9, 202, 9);
+}
+
+.green {
+    color: rgb(9, 202, 9);
+}
+
+.back-white {
+    background-color: white;
+}
+
+/* li character style of 2nd ul  */
+strong{
+    font-size: 20px;
 }
